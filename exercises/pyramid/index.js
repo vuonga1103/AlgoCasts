@@ -22,10 +22,6 @@
 
 // *** SOLUTION 1 - ITERATIVE ***
 function pyramid(n) {
-  // if n is 4, then we want total length of each row to be 7, which is n + 3 or n + (n - 1)
-  // if n is 3, then we want total length of each row to be 5, which is n + 2 or n + (n - 1)
-  // if n is 2, then we want total length of each row to be 3, which is n + 1 or n + (n - 1)
-  // if n is 1, then we want total length of row to be 1, which is n + 0 or n + (n - 1)
 
   let spaceCount = n - 1;  // first iteration: spaceCount = 3 ; spaceCount should incrementally decrease by 1, until it is 0
   let hashCount = 1;
