@@ -23,7 +23,7 @@
 // *** SOLUTION 1 - ITERATIVE ***
 function pyramid(n) {
 
-  let spaceCount = n - 1;  // first iteration: spaceCount = 3 ; spaceCount should incrementally decrease by 1, until it is 0
+  let spaceCount = n - 1;  // example first iteration: n = 4, therefore spaceCount = 3; spaceCount should incrementally decrease by 1, until it is 0
   let hashCount = 1;
 
   while (spaceCount >= 0) {
