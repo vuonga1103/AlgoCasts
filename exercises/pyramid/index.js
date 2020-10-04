@@ -31,7 +31,7 @@ function pyramid(n) {
     let spaces = '';
     while (spaces.length < spaceCount) spaces += ' ';
 
-    let hashes = '#';
+    let hashes = '';
     while (hashes.length < hashCount) hashes += '#';
 
     console.log(spaces + hashes + spaces)
